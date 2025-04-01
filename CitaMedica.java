@@ -1,21 +1,21 @@
 public class CitaMedica {
     private CentroClinico centro;
-    private Medico medico;
+    private Profesional profesional;
     private Paciente paciente;
     private String fecha;
     private String hora;
     private String motivo;
 
-    public CitaMedica(CentroClinico centro, Medico medico, Paciente paciente, String fecha, String hora, String motivo) {
+    public CitaMedica(CentroClinico centro, Profesional profesional, Paciente paciente, String fecha, String hora, String motivo) {
         this.centro = centro;
-        this.medico = medico;
+        this.profesional = profesional;
         this.paciente = paciente;
         this.fecha = fecha;
         this.hora = hora;
         this.motivo = motivo;}
 
         public CentroClinico getCentro() { return centro; }
-        public Medico getMedico() { return medico; }
+        public Profesional getMedico() { return profesional; }
         public Paciente getPaciente() { return paciente; }
         public String getFecha() { return fecha; }
         public String getHora() { return hora; }
