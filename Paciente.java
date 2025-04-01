@@ -17,4 +17,9 @@ public class Paciente {
     public String getApellidoPaterno() { return apellidoPaterno; }
     public String getApellidoMaterno() { return apellidoMaterno; }
     public String getContacto() { return contacto; }
+
+    @Override
+    public String toString() {
+        return "\n------------------------------------ \nPaciente: " + nombre + " " + apellidoPaterno + " " + apellidoMaterno + ", \nContacto: " + contacto;
+    }
 }
